@@ -191,3 +191,5 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-smartdns-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
 # 广告拦截库 AdGuardHome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome luci-i18n-adguardhome-zh-cn"
+# 局域网服务发现与多播 DNS（支持 Apple 设备跨网段发现/AirPrint/HomeBridge 等）
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES avahi-dbus-daemon dbus"
