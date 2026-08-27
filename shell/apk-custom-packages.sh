@@ -200,15 +200,14 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix luci-app-bandix luci-i18n-bandix-zh-cn"
 #SmartDNS
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-smartdns-zh-cn"
 # PassWall 相关
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall luci-i18n-passwall-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria geoview haproxy"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES geoview xray-core sing-box hysteria luci-i18n-passwall-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES haproxy"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES chinadns-ng dns2socks ipt2socks microsocks tcping"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES v2ray-geoip v2ray-geosite"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-tproxy kmod-nft-socket"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl ip-full resolveip unzip coreutils coreutils-base64 coreutils-nohup"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-compat luci-lib-jsonc dnsmasq-full"
 # 广告拦截库 AdGuardHome
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES ca-bundle ca-certificates"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl wget-ssl"
