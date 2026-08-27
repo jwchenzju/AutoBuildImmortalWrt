@@ -189,7 +189,25 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-smartdns-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wifischedule-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
+# PassWall 完整依赖
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall luci-i18n-passwall-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria geoview"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES haproxy"                    # 负载均衡必须
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES chinadns-ng dns2socks ipt2socks microsocks tcping"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES v2ray-geoip v2ray-geosite"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-tproxy kmod-nft-socket"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl ip-full resolveip unzip"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES coreutils coreutils-base64 coreutils-nohup"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-compat luci-lib-jsonc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES dnsmasq-full"               # 强烈建议替换默认dnsmasq
 # 广告拦截库 AdGuardHome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
+# AdGuardHome 完整依赖
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES ca-bundle ca-certificates"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl wget-ssl"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-compat"          # 很多版本需要
+# 可选但推荐（用于核心压缩/更新）
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES xz"
 # 局域网服务发现与多播 DNS（支持 Apple 设备跨网段发现/AirPrint/HomeBridge 等）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES avahi-dbus-daemon dbus"
