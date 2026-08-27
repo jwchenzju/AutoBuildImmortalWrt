@@ -39,7 +39,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix luci-app-bandix luci-i18n-bandix-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openvpn-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dae-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-homeproxy-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES geoview xray-core sing-box hysteria luci-i18n-passwall-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES geoview xray-core sing-box hysteria luci-i18n-passwall-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash luci-compat kmod-tun kmod-inet-diag kmod-nft-tproxy bash curl ip-full unzip"
 # VPN
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
@@ -189,20 +189,17 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-smartdns-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-wifischedule-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
-# PassWall 完整依赖
+# PassWall 相关（已有的基础上再补）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall luci-i18n-passwall-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria geoview"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES haproxy"                    # 负载均衡必须
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria geoview haproxy"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES chinadns-ng dns2socks ipt2socks microsocks tcping"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES v2ray-geoip v2ray-geosite"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-tproxy kmod-nft-socket"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl ip-full resolveip unzip"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES coreutils coreutils-base64 coreutils-nohup"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-compat luci-lib-jsonc"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES dnsmasq-full"               # 强烈建议替换默认dnsmasq
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl ip-full resolveip unzip coreutils coreutils-base64 coreutils-nohup"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-compat luci-lib-jsonc dnsmasq-full"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES shadowsocks-rust-sslocal shadowsocks-rust-ssserver"
 # 广告拦截库 AdGuardHome
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
-# AdGuardHome 完整依赖
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES adguardhome luci-app-adguardhome"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES ca-bundle ca-certificates"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES curl wget-ssl"
