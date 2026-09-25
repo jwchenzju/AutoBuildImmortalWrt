@@ -224,7 +224,6 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adguardhome"
 # passwall及依赖，带负载均衡，透明代理，以及RUST-plugin的节点支持
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES geoview xray-core sing-box hysteria luci-i18n-passwall-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-haproxy-tcp-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-haproxy-tcp-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-socket kmod-nft-tproxy"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES shadowsocks-rust-sslocal v2ray-plugin xray-plugin"
 # 分区扩容 by sirpdboy 
@@ -240,4 +239,3 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-diskman-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nps-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-smartdns-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ttyd-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES avahi-daemon dbus"
